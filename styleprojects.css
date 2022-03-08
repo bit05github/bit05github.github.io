@@ -9,10 +9,9 @@
 img {
   margin: 10px;
   box-shadow: 4px 7px 45px -10px rgba(0,0,0,0.4);
-  border-radius: 7px;
-  transition: transform .2s;
+  border-radius: 7px;;
 }
- 
+
 
 img:hover {
   transform:rotate(90deg) ;
@@ -75,7 +74,7 @@ body, html {
 li{
   list-style-type: none;
   margin: 2vw 0;
-  
+
   font-size: 3vh;
 }
 
@@ -96,8 +95,8 @@ ul{
   display: block;
   margin: 0;
   padding: 0;
-  
-  display: flex;  
+
+  display: flex;
 }
 
 body{
@@ -116,18 +115,18 @@ a:hover{
   ul{
     flex-direction: column;
   }
-  
+
   a{
     display: block;
   }
-  
+
   li{
     margin: 0;
   }
-  
+
   button{
     display: block;
-    
+
     padding: 2vw;
     font-size: 3vh;
     background-color: #ffafb2;
@@ -135,7 +134,7 @@ a:hover{
     border-color: #ff91a3;
     outline: none;
     cursor: pointer;
-    
+
     align-self: flex-start;
   }
 }
