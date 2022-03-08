@@ -1,0 +1,118 @@
+<head>
+  <link rel="stylesheet" href="styleprojects.css">
+  <title>bit projects</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600&family=Comfortaa:wght@500;600&display=swap" rel="stylesheet">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+<button onclick="one()">1</button>
+<button onclick="two()">2</button>
+<button onclick="four()">4</button>
+
+<script>
+
+
+// Get the elements with class="column"
+var elements = document.getElementsByClassName("column");
+
+// Declare a "loop" variable
+var i;
+
+// Full-width images
+function one() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.flex = "100%";
+  }
+}
+
+// Two images side by side
+function two() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.flex = "50%";
+  }
+}
+
+// Four images side by side
+function four() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.flex = "25%";
+  }
+}
+</script>
+
+
+<script>
+  function goTest() {
+    return window.open(testpage.html)
+  }
+</script>
+
+</head>
+<body>
+  <nav>
+    <ul>
+        <button>🞬</button>
+      <li>
+        <!-- link zero -->
+        <a href="index.html"> home </a>
+      </li>
+      <li>
+        <!-- link one -->
+        <a href="aboutme.html"> about bit </a>
+      </li>
+      <li>
+        <!-- link two -->
+         <a href="projects.html"> my projects and things </a>
+      </li>
+      <li>
+        <!-- link three -->
+        <a href="#socials"> follow me on here idk </a>
+      </li>
+      <li>
+        <!-- link four -->
+        <a href="#bonus"> bonus1!! </a>
+      </li>
+    </ul>
+  </nav>
+
+<style type="text/css">
+  .animate__animated.animate__bounce {
+  --animate-duration: 1.5s;
+  --animate-delay: 1s;
+}
+</style>
+
+</body>
+<h1 class="animate__animated animate__bounceInLeft">projects</h1>
+<br>
+<br>
+<br>
+
+
+<div class="row">
+  <div class="column">
+    <a href="projectsfolder/clickdie/index.html">
+      <img src ='https://preview.redd.it/1tzg2md1ich41.jpg?width=640&crop=smart&auto=webp&s=5e2eb0fa7a43b29c54208a7ca41d37e707477e9d' height='300' width='300' class="animate__animated animate__RollIn">
+    </a>
+    <a href="projectsfolder/ai stuff/Minecraft Tea Edition - 1.18.6 – Minecraft Feedback.html">
+      <img src ='https://preview.redd.it/1tzg2md1ich41.jpg?width=640&crop=smart&auto=webp&s=5e2eb0fa7a43b29c54208a7ca41d37e707477e9d' height='300' width='300' class="animate__animated animate__RollIn">
+    </a>
+    <a href="projectsfolder/rdlevels/redirect">
+
+    </a>
+  </div>
+  <div class="column">
+
+  </div>
+  <div class="column">
+
+  </div>
+</div>
+
+
+<!-- Container element -->
+<div class="parallax"></div>
